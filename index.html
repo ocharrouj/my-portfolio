@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Otmane charrouj — Portfolio</title>
+  <title>Otmane — Portfolio</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -15,13 +15,11 @@
   <header class="fixed w-full z-30 top-0">
     <nav class="max-w-6xl mx-auto flex items-center justify-between p-6">
       <div class="flex items-center gap-4">
-        <div class="text-2xl font-bold text-white">Otmane</div>
-        <span class="text-sm text-slate-400">Développeur Web</span>
+        <div class="text-2xl font-bold text-white">Développeur Web</div>
       </div>
       <ul class="hidden md:flex gap-8 text-sm items-center text-slate-300">
         <li><a href="#home" class="hover:text-green-400">Accueil</a></li>
         <li><a href="#services" class="hover:text-green-400">Competences</a></li>
-        <li><a href="#portfolio" class="hover:text-green-400">Portfolio</a></li>
         <li><a href="#contact" class="hover:text-green-400">Contact</a></li>
       </ul>
     </nav>
@@ -37,12 +35,12 @@
         <p class="text-sm text-green-400 font-semibold">Bonjour — Je suis</p>
         <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">Otmane Charrouj</h1>
         <p class="text-slate-300 max-w-xl">
-          Développeur Web Fullstack • Master Réseaux & Systèmes (2012) • Passionné par l'automatisation et l'intelligence artificielle.
-          Je conçois des interfaces modernes, performantes et accessibles.
+         Développeur Web créatif et orienté performance, je conçois des interfaces modernes et intuitives.
+         Passionné par l'automatisation et l'IA, j'apporte des solutions efficaces et intelligentes
         </p>
 
         <div class="flex flex-wrap gap-4 mt-4">
-          <a href="CV-Otmane.pdf" download class="inline-flex items-center gap-2 bg-green-400 text-black px-5 py-3 rounded-lg font-medium shadow-md hover:scale-105 transition">
+          <a href="CVotmane.pdf" download class="inline-flex items-center gap-2 bg-green-400 text-black px-5 py-3 rounded-lg font-medium shadow-md hover:scale-105 transition">
             <!-- download icon -->
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"/></svg>
             Télécharger CV
@@ -66,10 +64,10 @@
       <!-- right image (circle) -->
       <div class="flex justify-center lg:justify-end">
         <!-- Use your uploaded image path or replace by photo.jpg placed in same folder -->
-        <img src="WhatsApp Image 2025-11-25 à 12.43.37_3c54497f.jpg"
-             alt="Otmane"
-             class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-8 border-green-400 shadow-2xl hero-img">
-      </div>
+        <img src="otmane_charroujwb.png"
+     alt="developpeur web"
+     class="w-64 h-64 md:w-80 md:h-80 rounded-full object-contain border-8 border-green-400 shadow-2xl hero-img bg-white">
+     </div>
     </section>
 
     <!-- SERVICES / ABOUT SHORT -->
@@ -89,9 +87,7 @@
         </div>
       </div>
     </section>
-
-    <!-- PORTFOLIO (mini) -->
-    <section id="portfolio" class="py-16">
+    <section id="services" class="py-16">
       <div class="max-w-6xl mx-auto px-6">
         <h2 class="text-2xl font-bold text-white mb-6">Projets</h2>
         <div class="grid md:grid-cols-3 gap-6">
@@ -111,6 +107,7 @@
         </div>
       </div>
     </section>
+    
 
     <!-- CONTACT -->
     <section id="contact" class="py-16 bg-[#061226]">
@@ -130,18 +127,60 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="py-8">
-      <div class="max-w-6xl mx-auto px-6 text-center text-slate-400">
-        <p class="text-white font-semibold">Otmane Charrouj</p>
-        <p>otmane.charroj7@gmail.com</p>
-        <p class="mt-2">
-          <a href="https://www.linkedin.com/in/otmane-charrouj" target="_blank" class="underline hover:text-green-400">LinkedIn</a>
-          <span class="mx-3">•</span>
-          <a href="https://wa.me/212721435214?text=Bonjour%20Otmane" target="_blank" class="underline hover:text-green-400">WhatsApp</a>
-        </p>
-      </div>
-    </footer>
+    <footer class="bg-[#071229] border-t border-slate-800 py-12">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10 text-slate-300">
+
+    <!-- COL 1 : Portfolio -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-2">Otmane Charrouj</h3>
+      <p class="text-sm text-slate-400 leading-relaxed">
+        Développeur Web  — création de sites modernes, rapides et professionnels.
+      </p>
+    </div>
+
+    <!-- COL 2 : Contact -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-2">Contact</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="mailto:otmane.charroj7@gmail.com"
+             class="hover:text-green-400 transition">
+            otmane.charroj7@gmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- COL 3 : Réseaux sociaux -->
+    <div>
+      <h3 class="text-white text-lg font-semibold mb-2">Réseaux</h3>
+      <ul class="space-y-2">
+        <li>
+          <a href="https://www.linkedin.com/in/otmane-charrouj"
+             target="_blank"
+             class="hover:text-green-400 transition">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/212721435214?text=Bonjour%20Otmane"
+             target="_blank"
+             class="hover:text-green-400 transition">
+            WhatsApp
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="mt-10 text-center text-slate-500 text-sm border-t border-slate-800 pt-4">
+    © 2025 <span class="text-white font-medium">Otmane Charrouj</span> — Tous droits réservés.
+  </div>
+</footer>
+
   </main>
+
 
   <script src="script.js"></script>
 </body>
